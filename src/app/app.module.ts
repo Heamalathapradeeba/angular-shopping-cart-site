@@ -10,6 +10,7 @@ import { ProductsComponent } from './components/products/products.component';
 import { DataServiceService } from './services/data-service.service';
 import { FooterComponent } from './components/footer/footer.component';
 import { ProductdetailComponent } from './components/productdetail/productdetail.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -23,6 +24,7 @@ import { ProductdetailComponent } from './components/productdetail/productdetail
     HttpClientModule,
     BrowserModule,
     AppRoutingModule,
+    RouterModule
   ],
   providers: [DataServiceService],
   bootstrap: [AppComponent]
