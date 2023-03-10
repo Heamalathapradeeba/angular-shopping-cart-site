@@ -1,0 +1,34 @@
+[
+{
+    "id": 1,
+    "name": "Ethnic",
+    "image": "assets/designs/design1.jpg",
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color": ["red", "blue", "white", "black", "pink", "beige"],
+    "description": "A beige colored outfit that just enhances your everyday look"
+},
+{
+    "id": 2,
+    "name": "Admire",
+    "image": "assets/designs/design4jpg.jpg",
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color": ["red", "blue", "white", "black", "pink", "beige"],
+    "description": "A beige colored outfit that just enhances your everyday look"
+},
+{
+    "id": 3,
+    "name": "Confident",
+    "image": "./assets/designs/design3.jpg",
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color": ["red", "blue", "white", "black", "pink", "beige"],
+    "description": "A beige colored outfit that just enhances your everyday look"
+},
+{  
+    "id": 4,
+    "name": "Inspire",
+    "image": "./assets/designs/design6.jpg",
+    "size": ["S", "M", "L", "XL", "XXL"],
+    "color": ["red", "blue", "white", "black", "pink", "beige"],
+    "description": "A beige colored outfit that just enhances your everyday look"
+}
+]

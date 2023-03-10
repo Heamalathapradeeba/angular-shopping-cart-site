@@ -1,0 +1,40 @@
+<div class="container-fluid px-3">
+    <div class="row pt-3">
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <h4 class="mx-5 px-1">Stylus Fashion</h4>
+        </div>
+        <div class="col-lg-3"></div>
+        <div class="col-xs-12 col-md-8 col-lg-5 justify-content-lg-right mx-auto">
+            <ul *ngFor = "let list of headerList" class="headerList">
+                <li class="fw-bold">{{list}}</li>
+            </ul>
+        </div><br>
+
+        <!-- center section -->
+        <section class="row mx-auto">
+           
+            <article class="col-lg-4 col-md-4 col-xs-12 text-end pt-lg-5">
+                <h2 class="pt-lg-3 banner-text"> LUXURIOUS EXECUTIVE OUTFITS!</h2>
+                <p class="pt-lg-3">Fashion is a form of self expression and anotomy for a certain period, fashion describes the expressions of self and increase self confidence.</p>
+             </article>
+
+             <div class="d-flex col-lg-1 col-md-1 px-3 pt-5" style="height: 270px;">
+                <div class="vr"></div>
+              </div>
+
+            <div class="col-xs-12 col-md-7 col-lg-7">
+                <img  class="mt-5"  src="assets/designs/design5.jpg" height="320" width="300" style="border-radius: 10%;">
+                <img class="px-lg-3 mb-4" src="assets/designs/design6.jpg" height="320" width="320" style="border-radius: 14%;">
+            </div>
+        </section>
+
+        <!-- products section -->
+        <section>
+            <app-products></app-products>
+        </section>
+       
+        <!-- footer section -->
+        <app-footer></app-footer>
+
+    </div>
+</div>

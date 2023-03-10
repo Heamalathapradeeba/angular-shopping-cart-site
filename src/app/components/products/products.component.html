@@ -1,0 +1,25 @@
+<div class="container-fluid px-5">
+ <h4>New Arrivals</h4>   
+<div class="row">
+    <div class="col-lg-3 col-md-3 col-sm-4" *ngFor="let prod of productArray">
+
+        <!-- product image -->
+    
+        <div class="card" style="width: 18rem;">
+            <img [src]="prod.image" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">{{prod.name}}</h5>
+              <a href="#" class="btn btn-md product-button">View</a>
+              <div class="float-end">
+                <a href="#" class="btn icon-button"><i class="bi bi-bag-heart"></i></a>&nbsp;&nbsp;
+                <a href="#" class="btn icon-button float-end"><i class="bi bi-cart4"></i></a>
+              </div>
+          
+            </div>
+          </div>
+      
+ 
+    </div>
+</div>
+
+</div>
